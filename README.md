@@ -2,7 +2,9 @@
 
 ## Visão Geral
 
-Este projeto é um Sistema de Dieta e Treino desenvolvido em Python usando a biblioteca Tkinter para a interface gráfica. O sistema permite que o usuário insira seus dados pessoais, como peso, altura, idade, nível de atividade física, preferências alimentares, meta de treino e nível de experiência. Com base nesses dados, o sistema calcula a necessidade calórica do usuário, gera um plano de refeições equilibrado e cria um programa de treinamento periodizado.
+Projeto desenvolvido como parte da avaliação semestral do primeiro período do curso de [Seu Curso] da Universidade Nove de Julho (Uninove). Este sistema foi implementado em Python, utilizando a biblioteca Tkinter para a criação da interface gráfica.
+
+O objetivo do projeto é fornecer aos usuários uma plataforma para gerenciar suas dietas e treinos, ajudando-os a atingir suas metas de saúde e fitness de maneira personalizada. O sistema permite que o usuário insira dados pessoais como peso, altura, idade, nível de atividade física, preferências alimentares, meta de treino e nível de experiência. Com base nessas informações, o programa calcula as necessidades calóricas do usuário, gera um plano de refeições equilibrado e cria um programa de treinamento periodizado adaptado às suas condições e objetivos.
 
 ## Funcionalidades
 
