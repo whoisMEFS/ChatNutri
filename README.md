@@ -1,4 +1,5 @@
 # Sistema de Dieta e Treino
+![image](https://github.com/user-attachments/assets/233c950e-b581-4035-b9d7-69037ba86047)
 
 ## Visão Geral
 
