@@ -1,80 +1,128 @@
-# Sistema de Dieta e Treino
-![image](https://github.com/user-attachments/assets/233c950e-b581-4035-b9d7-69037ba86047)
+# ChatNutri — Assistente Virtual de Nutrição com IA ✨
 
-## Visão Geral
+![image](https://github.com/user-attachments/assets/a403e7ad-740a-4557-a992-88cd51a8f634)
 
-   Projeto desenvolvido como parte da avaliação semestral do primeiro período do curso de Ciência da Computação da Universidade Nove de Julho (Uninove). Este sistema foi implementado em Python, utilizando a biblioteca Tkinter para a criação da interface gráfica.
 
-   O objetivo do projeto é fornecer aos usuários uma plataforma para gerenciar suas dietas e treinos, ajudando-os a atingir suas metas de saúde e fitness de maneira personalizada. O sistema permite que o usuário insira dados pessoais como peso, altura, idade, nível de atividade física, preferências alimentares, meta de treino e nível de experiência. Com base nessas informações, o programa calcula as necessidades calóricas do usuário, gera um plano de refeições equilibrado e cria um programa de treinamento periodizado adaptado às suas condições e objetivos.
+## 🌟 Visão Geral
 
-## Funcionalidades
+Projeto desenvolvido como parte da avaliação semestral do primeiro período do curso de Ciência da Computação da Universidade Nove de Julho (Uninove). 
 
-1. **Calcular Necessidade Calórica:**
-   - Baseado na fórmula de Harris-Benedict, calcula a Taxa Metabólica Basal (BMR) e a Necessidade Calórica Total (TDEE) do usuário.
+**Tecnologias utilizadas:**
+- 🐍 Python 3.8+
+- 🖼️ Tkinter (Interface Gráfica)
+- 🧠 Lógica de IA para recomendações personalizadas
 
-2. **Criar Plano de Refeições:**
-   - Gera um plano de refeições equilibrado com base nas necessidades calóricas e preferências alimentares do usuário.
-   
-3. **Criar Programa de Treinamento:**
-   - Desenvolve um programa de treinamento periodizado com base nas metas de condicionamento físico e nível de experiência do usuário.
-
-## Como Usar
-
-1. Clone este repositório para o seu ambiente local:
-   ```bash
-   git clone <URL_DO_REPOSITÓRIO>
-   ```
-
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd <NOME_DO_DIRETÓRIO>
-   ```
-
-3. Certifique-se de ter o Python instalado em sua máquina. Este projeto foi desenvolvido usando Python 3.8+.
-
-4. Execute o script Python para iniciar a aplicação:
-   ```bash
-   python sistema_dieta_treino.py
-   ```
-
-5. Insira seus dados nos campos apropriados:
-   - Peso (kg)
-   - Altura (m)
-   - Idade
-   - Nível de Atividade (Sedentário, Levemente Ativo, Moderadamente Ativo, Muito Ativo)
-   - Preferências Alimentares
-   - Meta de Treino
-   - Nível de Experiência (Iniciante, Intermediário, Avançado)
-
-6. Clique no botão "Processar" para gerar o plano de refeições e o programa de treinamento.
-
-7. Os resultados serão exibidos na caixa de texto na interface gráfica.
-
-## Estrutura do Código
-
-- **calcular_necessidade_calorica(peso, altura, idade, nivel_atividade):** Calcula a necessidade calórica total baseada nos dados do usuário.
-- **criar_plano_refeicoes(necessidade_calorica, preferencias_alimentares):** Gera um plano de refeições equilibrado.
-- **criar_programa_treinamento(meta, nivel_experiencia):** Cria um programa de treinamento periodizado.
-- **processar_dados():** Processa os dados inseridos pelo usuário e exibe os resultados.
-- **Interface Gráfica:** Utiliza a biblioteca Tkinter para criar a interface gráfica do usuário (GUI).
-
-## Dependências
-
-- Python 3.8+
-- Tkinter (incluído na biblioteca padrão do Python)
-
-## Contribuição
-
-1. Faça um fork deste repositório.
-2. Crie um branch para sua feature (`git checkout -b feature/AmazingFeature`).
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`).
-4. Faça o push para o branch (`git push origin feature/AmazingFeature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
+**Objetivo:**  
+Fornecer uma plataforma inteligente para gerenciamento de dietas e treinos, ajudando usuários a atingirem suas metas de saúde e fitness com planos 100% personalizados.
 
 ---
 
-Qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato. Aproveite o sistema e bons treinos!
+## 🚀 Funcionalidades Principais
+
+### 🔍 Cálculo de Necessidade Calórica
+- Fórmula de Harris-Benedict
+- Cálculo de Taxa Metabólica Basal (BMR)
+- Necessidade Calórica Total (TDEE) personalizada
+
+### 🍏 Plano de Refeições Inteligente
+- Geração de cardápios equilibrados
+- Adaptação às preferências alimentares
+- Distribuição ideal de macronutrientes
+
+### 💪 Programa de Treinamento Personalizado
+- Periodização adaptada ao nível do usuário
+- Foco na meta específica (emagrecimento, hipertrofia, etc.)
+- Evolução progressiva dos exercícios
+
+---
+
+## 📥 Como Usar
+
+### 1. Instalação
+
+```bash
+git clone https://github.com/seu-usuario/ChatNutri.git
+cd ChatNutri
+````
+
+### 2. Execução
+
+```bash
+python sistema_dieta_treino.py
+```
+
+### 3. Fluxo de Uso
+
+* Preencha seus dados pessoais
+* Defina suas preferências e metas
+* Receba planos alimentares e de treino
+* Acompanhe sua evolução
+
+---
+
+## 🧩 Estrutura do Código
+
+```python
+# Cálculos Nutricionais
+def calcular_necessidade_calorica(peso, altura, idade, nivel_atividade):
+    """Calcula TDEE com fórmula Harris-Benedict"""
+    ...
+
+# Gerador de Dietas
+def criar_plano_refeicoes(necessidade_calorica, preferencias):
+    """Gera plano alimentar personalizado"""
+    ...
+
+# Gerador de Treinos
+def criar_programa_treinamento(meta, nivel):
+    """Cria periodização de exercícios"""
+    ...
+```
+
+---
+
+## 📦 Dependências
+
+| Pacote  | Versão |
+| ------- | ------ |
+| Python  | 3.8+   |
+| Tkinter | Padrão |
+
+---
+
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie sua feature branch:
+
+   ```bash
+   git checkout -b feature/nova-feature
+   ```
+3. Commit suas mudanças:
+
+   ```bash
+   git commit -m 'Adiciona nova feature'
+   ```
+4. Push para a branch:
+
+   ```bash
+   git push origin feature/nova-feature
+   ```
+5. Abra um Pull Request
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo `LICENSE.md` para mais detalhes.
+
+---
+
+## 💡 Dúvidas ou sugestões?
+
+Abra uma issue ou entre em contato com nossa equipe!
+
+📆 **Última atualização:** Junho/2024
+
+```
+
